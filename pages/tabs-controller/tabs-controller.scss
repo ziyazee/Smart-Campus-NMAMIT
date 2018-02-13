@@ -1,0 +1,21 @@
+page-tabs-controller {
+//  $tabs-md-tab-icon-color:red;
+//  $tabs-md-tab-icon-color-active:green;
+// $tabs-md-tab-icon-color-active: map-get($colors, green) !important;
+
+}
+.tabs-md .tabbar {
+    background: #2962ff;
+}
+.tabs-md .tab-button[aria-selected=true]{
+    color:#f5f5f5;
+}
+.tabs-md .tab-button[aria-selected=false]{
+    color:#bdbdbd;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon{
+    color:#f5f5f5;
+}
+.tabs-md .tab-button[aria-selected=false] .tab-button-icon{
+    color:#bdbdbd;
+}
