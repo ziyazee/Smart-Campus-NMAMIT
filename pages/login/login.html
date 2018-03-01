@@ -1,51 +1,66 @@
-<ion-header>
+<!-- <ion-header>
     <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto" rel="stylesheet"> 
 
-<ion-navbar color="danger" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+<ion-navbar  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);background:#003d33;">
    
     <ion-title>
      Login
     </ion-title>
   </ion-navbar>
-</ion-header>
-<ion-content id="page5" style="background-color:#1c313a;">
-  <div class="img-holder">
-  <img src="assets/img/1.jpg" style="filter: blur(2px);
-  display:block;width:100%;height:200px;margin-left:auto;margin-right:auto;" >
-       <!-- <div class="spacer" style="width:300px;height:39px;" id="login-spacer2"></div>  -->
-<div class="link">
+  
+</ion-header>  -->
+<link href="https://fonts.googleapis.com/css?family=Smythe|Oxygen" rel="stylesheet">
+<ion-content id="page5"    style="background-image:url('assets/img/b.jpg');background-size:cover;background-repeat:no-repeat;">
+  
+  <!-- <img src="assets/img/1.jpg" style="filter: blur(2px);
+  display:block;width:100%;height:200px;margin-left:auto;margin-right:auto;" > -->
+<div class="spacer" style="width:100px;height:20px;" id="login-spacer2"></div> 
 
-    <h1 style="text-align:center;font-size:35px;font-family: 'Patua One', cursive;color:#eeeeee;text-shadow: 2px 2px black"> SMART CAMPUS</h1>
 
-</div></div>
+  <div class="profilepic"style=""><img src="assets/img/logo.png" style="height:220px;"></div> 
+<div class="spacer" style="width:100px;height:30px;" id="login-spacer2"></div> 
+ <!-- <div  style="padding:0px 0px ;background-color:white;border-radius:20px;">
+  <div  class="profilepic"><div style="padding-top:10px;"> <img  src="assets/img/logo.jpg" style="height:120px;"></div></div>
+  <p style="font-family:'Smythe', cursive;font-size:60px;text-align:center;margin:10px;padding-bottom:10px;color:#2D3090"><b>Smart Campus</b></p>
+</div> -->
+<h1 style="text-align:center;color:white;font-size:30px;font-family: 'Oxygen', sans-serif;">Smart Campus</h1>
+
+<div style="">
+ <br>
  
-       <form id="login-form1" padding style="box-shadow: 0px 0px 0px #000, 0px -10px 5px #000;" >
-        <div class="spacer" style="width:300px;height:20px;" id="login-spacer2"></div>  
+ 
+       <form id="login-form1"  style="background-color: rgba(255,255,255,0.4);" >
+        <div class="spacer" style="width:300px;height:30px;" id="login-spacer2"></div>  
+   <!--      -->
 
     <ion-list id="login-list1">
-      <ion-item id="login-input1"style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " >
-        <ion-label icon-start>
-           <ion-icon name="school"></ion-icon>
+      <ion-item id="login-input1"style="background-color: rgba(255,255,255,0); " >
+        <ion-label icon-start style="color:white">
+           <ion-icon name="school" style="color:white"></ion-icon>
           Usn
         </ion-label>
        
-        <ion-input type="email" placeholder="" ></ion-input>
+        <ion-input type="email" placeholder=""style="color:white" ></ion-input>
       </ion-item>
 
-     
-      <ion-item id="login-input2"  >
-        <ion-label icon-start >
-          <ion-icon name="star"></ion-icon>
+     <div class="spacer" style="width:300px;height:7px;" id="login-spacer2"></div> 
+      <ion-item id="login-input2" style="background-color: rgba(255,255,255,0);" >
+        <ion-label icon-start  style="color:white">
+          <ion-icon name="star" style="color:white"></ion-icon>
           Password
         </ion-label>
-        <ion-input type="password" placeholder=""  ></ion-input>
+        <ion-input type="password" placeholder="" style="color:white" ></ion-input>
       </ion-item>
     </ion-list>
     <div class="spacer" style="height:10px;" id="login-spacer1"></div>
-  <button id="menu-button4"on-click="  goToCameraTabDefaultPage()"
-ion-button color="dark" block style="font-weight:500;color:#13E3E9;font-size:20px;">
+  <button id="menu-button4"on-click="  goToCameraTabDefaultPage()" ion-button  block style="background-color:#2C2F8F;border-radius:0px;height:50px;box-shadow:none;opacity:0.9;">
       Login
     </button>
       <!-- <div class="spacer" style="width:300px;height:199px;" id="login-spacer2"></div>   -->
   </form>
+</div>
 </ion-content>
+<div padding style="background-color:rgba(24,255,255,0.9);height:100%;width:100%;position:fixed"> 
+
+
+</div>

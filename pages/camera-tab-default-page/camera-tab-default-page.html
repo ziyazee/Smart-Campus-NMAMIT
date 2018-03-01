@@ -1,45 +1,77 @@
 <ion-header>
     <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Sans" rel="stylesheet">
 
-  <ion-navbar >
+  <!-- <ion-navbar >
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title style="color:#eeeeee;">
      Profile
     </ion-title>
-  </ion-navbar>
+  </ion-navbar> -->
 </ion-header>
 <ion-content id="content">
   
-  <div id="profile-background" padding >
+  <div id="profile-background"  >
       
     <div id="profilepic" >
 	      <img src="assets/img/ziya.jpg">
     </div>
-    <h1 class="pro-heading">
+    <h1 class="pro-heading"style="text-transformation:uppercase;" >
       MAHAMMAD ZIYA
     </h1>
-    <h3 class="pro-heading" >
+    <h3 class="pro-heading" style="margin-bottom:10;" >
       4NM15IS029
     </h3>
+   
   </div>
 <br>
   <ion-card >
-  <ion-card-header class="card-header" >
-    Header
+  <ion-card-header class="card-header"style="text-transformation:uppercase;"  >
+    Basic information
   </ion-card-header>
   <ion-card-content>
-    <br>
-    The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+  
+    <ion-grid style="">
+	
+      <ion-row style="">
+    
+   
+    <ion-col col-5 class="none" >
+      name
+    </ion-col>
+     <ion-col col-7 class="none" >
+      mahammad ziya
+    </ion-col>
+    </ion-row>
+    <ion-row style="">
+    <ion-col col-5 class="none">
+     usn
+    </ion-col>
+     <ion-col col-7 class="none" >
+     4nm15is029
+    </ion-col>
+    </ion-row>
+  
+      <ion-row >
+     <ion-col  col-5 class="none" >
+      branch
+    </ion-col>
+     <ion-col col-7 class="none" >
+      information science
+    </ion-col>
+    </ion-row>
+  
+  </ion-grid>
   </ion-card-content>
 </ion-card>
+<hr>
 <ion-card>
   <ion-card-header>
     Header
   </ion-card-header>
   <ion-card-content>
-    The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+   
   </ion-card-content>
 </ion-card><ion-card>
   <ion-card-header>
@@ -78,7 +110,15 @@
   </ion-card-content>
 </ion-card>
 
-  
+  <script>
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
+    // Now safe to use device APIs
+    StatusBar.backgroundColorByHexString("#002171");
+}
+
+</script>
 
  
 </ion-content>

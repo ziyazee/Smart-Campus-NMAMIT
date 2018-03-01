@@ -1,4 +1,16 @@
 page-cloud-tab-default-page {
+
+      .toolbar-background {
+  background-color: #006db3;
+  color: #eeeeee;
+}
+.toolbar-title-md {
+    color: #eeeeee;
+}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+    color:#eeeeee;
+    background-color: transparent;
+}
 ion-item {
    color:#8d8d8d;
 }

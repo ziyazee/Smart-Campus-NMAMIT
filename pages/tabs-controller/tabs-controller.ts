@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { CameraTabDefaultPagePage } from '../camera-tab-default-page/camera-tab-default-page';
 import { CartTabDefaultPagePage } from '../cart-tab-default-page/cart-tab-default-page';
 import { CloudTabDefaultPagePage } from '../cloud-tab-default-page/cloud-tab-default-page';
+import { TeamsPage } from '../teams/teams';
 
 @Component({
   selector: 'page-tabs-controller',
@@ -13,6 +14,7 @@ export class TabsControllerPage {
   tab1Root: any = CameraTabDefaultPagePage;
   tab2Root: any = CartTabDefaultPagePage;
   tab3Root: any = CloudTabDefaultPagePage;
+  tab4Root: any = TeamsPage;
   constructor(public navCtrl: NavController) {
   }
   

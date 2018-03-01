@@ -8,6 +8,7 @@ import { CloudTabDefaultPagePage } from '../pages/cloud-tab-default-page/cloud-t
 import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
 import { LoginPage } from '../pages/login/login';
 import { PagePage } from '../pages/page/page';
+import { TeamsPage } from '../pages/teams/teams';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CloudTabDefaultPagePage,
     TabsControllerPage,
     LoginPage,
-    PagePage
+    PagePage,
+    TeamsPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CloudTabDefaultPagePage,
     TabsControllerPage,
     LoginPage,
-    PagePage
+    PagePage,
+    TeamsPage
   ],
   providers: [
     StatusBar,

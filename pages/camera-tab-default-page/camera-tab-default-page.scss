@@ -2,7 +2,7 @@ page-camera-tab-default-page {
 ion-app.md [padding] {
     padding: 160px;
 }
-$default: #428e92;
+$default: #006db3;
 .toolbar-background {
   background-color: $default;
   color: #eeeeee;
@@ -21,8 +21,10 @@ $default: #428e92;
     background-color:#eeeeee ;font-family: 'Bitter', serif;
 }
 #profile-background{
+    background-image:url('assets/img/ziya.jpg');
     background:linear-gradient(to bottom, #eeeeee  50%, $default 50%);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding:10px;
 }
 
 #profilepic img {
@@ -39,10 +41,17 @@ $default: #428e92;
 }
 .card-header{
 
-    background-color: $default;
+    background-color: #006db3;
     color:#eeeeee;
 }
 
 
 
+
+}
+hr{
+    color:black;
+}
+.card-content-md{
+    padding: 0px !important;
 }
